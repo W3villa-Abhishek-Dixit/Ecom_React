@@ -95,10 +95,10 @@ function FeaturedProduct_sec() {
                     </div>
                     <div className="bg-slate-300 font-light px-[px]">
                       <div className="" >
-                        <FaAngleUp />
+                       <button><FaAngleUp /></button> 
                       </div>
                       <div className="" >
-                        <FaAngleDown />
+                      <button><FaAngleDown /></button>  
                       </div>
                     </div>
                     <button className="bg-blue-800 px-2 rounded-sm text-white font-light text-[13px]" >
@@ -211,10 +211,10 @@ function FeaturedProduct_sec() {
                     </div>
                     <div className="bg-slate-300 font-light px-[px]">
                       <div className="" >
-                        <FaAngleUp />
+                      <button><FaAngleUp /></button>  
                       </div>
                       <div className="" >
-                        <FaAngleDown />
+                       <button><FaAngleDown /></button> 
                       </div>
                     </div>
                     <button className="bg-blue-800 px-2 rounded-sm text-white font-light text-[13px]" >
@@ -269,10 +269,10 @@ function FeaturedProduct_sec() {
                     </div>
                     <div className="bg-slate-300 font-light px-[px]">
                       <div className="" >
-                        <FaAngleUp />
+                       <button><FaAngleUp /></button> 
                       </div>
                       <div className="" >
-                        <FaAngleDown />
+                      <button><FaAngleDown /></button>  
                       </div>
                     </div>
                     <button className="bg-blue-800 px-2 rounded-sm text-white font-light text-[13px]" >
@@ -327,10 +327,10 @@ function FeaturedProduct_sec() {
                     </div>
                     <div className="bg-slate-300 font-light px-[px]">
                       <div className="" >
-                        <FaAngleUp />
+                      <button><FaAngleUp /></button>  
                       </div>
                       <div className="" >
-                        <FaAngleDown />
+                        <button><FaAngleDown /></button>
                       </div>
                     </div>
                     <button className="bg-blue-800 px-2 rounded-sm text-white font-light text-[13px]" >

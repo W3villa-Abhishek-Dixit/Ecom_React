@@ -11,11 +11,15 @@ import photo9 from "../assets/images/photo9.jpeg";
 
 const Gallery = () => {
   return (
-    <div className='w-screen h-auto bg-gray-400 mt-[20px] mx-auto py-6'>
+    <div className='w-screen h-auto bg-slate-600 mt-[20px] mx-auto py-6'>
       <div className='max-w-[1600px] flex flex-col justify-center items-center mx-auto px-5'>
-        <h1 className='text-[21px] font-semibold mt-[15px]'>Gallery Module</h1>
-        <div className='h-0.5 w-[50px] mt-[5px] bg-amber-950'></div>
-        <div className='flex justify-center items-center mt-[10px] text-center'>
+        {/* <h1 className='text-[21px] font-semibold mt-[15px]'>Gallery Module</h1>
+        <div className='h-0.5 w-[50px] mt-[5px] bg-amber-950'></div> */}
+        <div className="text-[21px] sm:text-[37px] xl:text-[43px] font-semibold text-white">
+          Gallery Module
+        </div>
+        <div className="h-[2px] w-[60px] md:w-[120px] bg-orange-600 my-2"></div>
+        <div className='flex justify-center items-center mt-[10px] text-center text-gray-300'>
           <p>
             The gallery module supports images, videos, and can also act as banners that point to any other page or popup module.<br />
             Create different modules with images, videos, banners, or a combination of all. Add our module on any page in any grid format.

@@ -51,18 +51,22 @@ const Blog = () => {
   return (
     <div className="w-screen h-auto bg-white overflow-hidden py-10">
       <div className="max-w-[1600px] mx-auto flex flex-col items-center">
-        <h1 className="text-[21px] font-semibold mt-[15px]">From our Blog</h1>
-        <div className="h-0.5 w-[50px] mt-[5px] bg-amber-950"></div>
-        <p className="text-center mt-[10px]">
+        {/* <h1 className="text-[21px] font-semibold mt-[15px]">From our Blog</h1>
+        <div className="h-0.5 w-[50px] mt-[5px] bg-amber-950"></div> */}
+        <div className="text-[21px] sm:text-[37px] xl:text-[43px] font-semibold">
+          From our Blog
+        </div>
+        <div className="h-[2px] w-[60px] md:w-[120px] bg-orange-600 my-2"></div>
+        <p className="text-center mt-[10px] text-gray-500">
           Journal comes with its own simple yet powerful blog. With the new
           advanced typography style, your post page design will be unmatched.
         </p>
         <div className="flex mt-[20px]">
-          <ol className="flex justify-center h-[35px] w-[300px] gap-[50px] items-center">
-            <li className="bg-blue-400 h-[35px] w-[150px] flex justify-center items-center">
+          <ol className="flex justify-center h-[35px] w-[300px] gap-[50px] items-center bg-gray-200">
+            <li className="bg-blue-400 h-[35px] w-[150px] flex justify-center items-center text-white mr-[10px]">
               LATEST POSTS
             </li>
-            <li>MOST READ</li>
+            <li className="">MOST READ</li>
           </ol>
         </div>
 
@@ -91,13 +95,13 @@ const Blog = () => {
                 <div className="text-lg font-semibold">
                   Journal Blog is here
                 </div>
-                <p className="text-center text-sm mt-2">
+                <p className="text-center text-sm mt-2 text-gray-600">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nesciunt laudantium reprehenderit corporis dolorem sint
                   nostrum consequatur.
                 </p>
               </div>
-              <div className="flex justify-center items-center gap-[5px]">Read More <FaArrowRight /></div>
+              <div className="flex justify-center items-center gap-[5px] text-gray-600">Read More <FaArrowRight /></div>
                 
             </div>
 
@@ -124,14 +128,14 @@ const Blog = () => {
                 <div className="text-lg font-semibold">
                   Best Leather Bags
                 </div>
-                <p className="text-center text-sm mt-2">
+                <p className="text-center text-sm mt-2 text-gray-600">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nesciunt laudantium reprehenderit corporis dolorem sint
                   nostrum consequatur.
                 </p>
               </div>
 
-              <div className="flex justify-center items-center gap-[5px]">Read More <FaArrowRight /></div>
+              <div className="flex justify-center items-center gap-[5px] text-gray-600">Read More <FaArrowRight /></div>
             </div>
 
             {/* Add other slides */}
@@ -157,14 +161,14 @@ const Blog = () => {
                 <div className="text-lg font-semibold">
                   Perfect Blogs for You
                 </div>
-                <p className="text-center text-sm mt-2">
+                <p className="text-center text-sm mt-2 text-gray-600">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nesciunt laudantium reprehenderit corporis dolorem sint
                   nostrum consequatur.
                 </p>
               </div>
 
-              <div className="flex justify-center items-center gap-[5px]">Read More <FaArrowRight /></div>
+              <div className="flex justify-center items-center gap-[5px] text-gray-600">Read More <FaArrowRight /></div>
             </div>
 
             {/* Add another slide */}
@@ -190,7 +194,7 @@ const Blog = () => {
                 <div className="text-lg font-semibold">
                   Best Blog Designs
                 </div>
-                <p className="text-center text-sm mt-2">
+                <p className="text-center text-sm mt-2 text-gray-600">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nesciunt laudantium reprehenderit corporis dolorem sint
                   nostrum consequatur.
@@ -198,7 +202,7 @@ const Blog = () => {
               </div>
 
 
-              <div className="flex justify-center items-center gap-[5px]">Read More <FaArrowRight /></div>
+              <div className="flex justify-center items-center gap-[5px] text-gray-600">Read More <FaArrowRight /></div>
             </div>
 
 
@@ -224,14 +228,14 @@ const Blog = () => {
                 <div className="text-lg font-semibold">
                   Perfect Blogs for You
                 </div>
-                <p className="text-center text-sm mt-2">
+                <p className="text-center text-sm mt-2 text-gray-600">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nesciunt laudantium reprehenderit corporis dolorem sint
                   nostrum consequatur.
                 </p>
               </div>
 
-              <div className="flex justify-center items-center gap-[5px]">Read More <FaArrowRight /></div>
+              <div className="flex justify-center items-center gap-[5px] text-gray-600">Read More <FaArrowRight /></div>
             </div>
           </Slider>
         </div>

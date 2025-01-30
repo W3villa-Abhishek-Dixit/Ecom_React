@@ -45,8 +45,12 @@ const Review = () => {
         <div className="w-screen h-auto py-10">
             <div className=" h-[300px] w-[80vw] mx-auto">
                 <div className="flex flex-col justify-center items-center">
-                <h1 className="text-[21px] font-semibold mt-[15px]">What are people saying about us</h1>
-                <div className="h-0.5 w-[50px] mt-[5px] bg-amber-950"></div>
+                {/* <h1 className="text-[21px] font-semibold mt-[15px]">What are people saying about us</h1>
+                <div className="h-0.5 w-[50px] mt-[5px] bg-amber-950"></div> */}
+                <div className="text-[21px] sm:text-[37px] xl:text-[43px] font-semibold">
+          Featured Products
+        </div>
+        <div className="h-[2px] w-[60px] md:w-[120px] bg-orange-600 my-2"></div>
 
                 </div>
             
@@ -54,35 +58,35 @@ const Review = () => {
                     {/* Slide 1 */}
                     <div className=" h-[270px] max-w-[96%] flex items-center justify-center hover:border-1 border-slate-500">
                         <div className="text-[50px] flex justify-center items-center mt-[25px] text-amber-800"><FaQuoteLeft /></div>
-                        <div className="text-center  mt-[20px]">company thrives on innovation, collaboration, and dedication. 
+                        <div className="text-center  mt-[20px] text-gray-600">company thrives on innovation, collaboration, and dedication. 
                     We believe in empowering our team to create impactful solutions that drive success and foster growth. 
                     We’re proud to have a passionate team committed to excellence.</div>
-                    <div className='font-semibold text-center mt-[5px]'>- charlibaltimore</div>
+                    <div className='font-semibold text-center mt-[5px] text-gray-700'>- charlibaltimore</div>
                     </div>
                     {/* Slide 2 */}
                     <div className=" h-[270px]  max-w-[96%] flex items-center justify-center hover:border-1 border-slate-500">
                         <div className="text-[50px] flex justify-center items-center mt-[25px] text-amber-800"><FaQuoteLeft /></div>
-                        <div className="text-center  mt-[20px]">company thrives on innovation, collaboration, and dedication. 
+                        <div className="text-center  mt-[20px] text-gray-600">company thrives on innovation, collaboration, and dedication. 
                     We believe in empowering our team to create impactful solutions that drive success and foster growth. 
                     We’re proud to have a passionate team committed to excellence.</div>
-                    <div className='font-semibold text-center mt-[5px]'>- charlibaltimore</div>
+                    <div className='font-semibold text-center mt-[5px]text-gray-700'>- charlibaltimore</div>
                     </div>
                     
                     {/* Slide 3 */}
                     <div className=" h-[270px] max-w-[96%] flex items-center justify-center hover:border-1 border-slate-500">
                         <div className="text-[50px] flex justify-center items-center mt-[25px] text-amber-800"><FaQuoteLeft /></div>
-                        <div className="text-center  mt-[20px]">company thrives on innovation, collaboration, and dedication. 
+                        <div className="text-center  mt-[20px] text-gray-600">company thrives on innovation, collaboration, and dedication. 
                     We believe in empowering our team to create impactful solutions that drive success and foster growth. 
                     We’re proud to have a passionate team committed to excellence.</div>
-                    <div className='font-semibold text-center mt-[5px]'>- charlibaltimore</div>
+                    <div className='font-semibold text-center mt-[5px]text-gray-700'>- charlibaltimore</div>
                     </div>
                     {/* Slide 4 */}
                     <div className=" h-[270px] max-w-[96%]  flex items-center justify-center hover:border-1 border-slate-500">
                         <div className="text-[50px] flex justify-center items-center mt-[25px] text-amber-800"><FaQuoteLeft /></div>
-                        <div className="text-center  mt-[20px]">company thrives on innovation, collaboration, and dedication. 
+                        <div className="text-center  mt-[20px] text-gray-600">company thrives on innovation, collaboration, and dedication. 
                     We believe in empowering our team to create impactful solutions that drive success and foster growth. 
                     We’re proud to have a passionate team committed to excellence.</div>
-                    <div className='font-semibold text-center mt-[5px]'>- charlibaltimore</div>
+                    <div className='font-semibold text-center mt-[5px] text-gray-700'>- charlibaltimore</div>
                     </div>
                     {/* Slide 5 */}
                     

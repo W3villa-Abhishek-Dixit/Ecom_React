@@ -56,9 +56,13 @@ function BrandLogo() {
 
     <div className="w-[80vw] max-w-[1600px] mx-auto ">
       <div className="flex flex-col justify-center items-center mt-[10px]">   
-        
+{/*         
        <h1 className='text-[21px] font-semibold '>Shop by Brand</h1>
-       <div className='h-0.5 w-[50px] bg-amber-950 flex  justify-center text-center mt-[10px]' ></div>  
+       <div className='h-0.5 w-[50px] bg-amber-950 flex  justify-center text-center mt-[10px]' ></div>   */}
+       <div className="text-[21px] sm:text-[37px] xl:text-[43px] font-semibold">
+          Shop by Brand
+        </div>
+        <div className="h-[2px] w-[60px] md:w-[120px] bg-orange-600 my-2"></div>
          </div>
       <div className="slider-container">
         <Slider {...settings} className="space-x-0  mt-[20px] max-w-[1600px]">

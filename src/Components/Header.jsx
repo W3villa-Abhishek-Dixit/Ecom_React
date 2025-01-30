@@ -16,8 +16,8 @@ const Header = () => {
           <div className=' hidden lg:flex justify-between w-[340px] '>
                 <div className='w-[13%] flex justify-center items-center bg-blue-500 text-white'>All<MdArrowDropDown />
                 </div>
-                <div className='w-[80%] h-[30px] bg-white'>
-                    <input type="text" placeholder='Search here' />
+                <div className='w-[80%] h-[40px] bg-white'>
+                    <input type="text" placeholder='Search here'className='mt-[5px] ml-[5px]' />
                 </div>
                 <div className='flex justify-center items-center w-[10%] bg-blue-500 text-white'>
                 <CiSearch />
