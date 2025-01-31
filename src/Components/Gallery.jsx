@@ -27,32 +27,32 @@ const Gallery = () => {
         </div>
 
         <div className='flex flex-wrap justify-center gap-5 mt-[10px]'>
-          <div className="h-[200px] w-[200px] flex items-center relative">
-            <img className="h-full w-full object-center object-cover border rounded-xl overflow-hidden" src={photo1} alt="Slide 1" />
+          <div className="h-[100px] w-[100px] flex items-center relative">
+            <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo1} alt="Slide 1" />
           </div>
-          <div className="h-[200px] w-[200px] flex items-center relative">
-            <img className="h-full w-full object-center object-cover border rounded-xl overflow-hidden" src={photo2} alt="Slide 2" />
+          <div className="h-[100px] w-[100px] flex items-center relative">
+            <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo2} alt="Slide 2" />
           </div>
-          <div className="h-[200px] w-[200px] flex items-center relative">
-            <img className="h-full w-full object-center object-cover border rounded-xl overflow-hidden" src={photo3} alt="Slide 3" />
+          <div className="h-[100px] w-[100px] flex items-center relative">
+            <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo3} alt="Slide 3" />
           </div>
-          <div className="h-[200px] w-[200px] flex items-center relative">
-            <img className="h-full w-full object-center object-cover border rounded-xl overflow-hidden" src={photo4} alt="Slide 4" />
+          <div className="h-[100px] w-[100px] flex items-center relative">
+            <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo4} alt="Slide 4" />
           </div>
-          <div className="h-[200px] w-[200px] flex items-center relative">
-            <img className="h-full w-full object-center object-cover border rounded-xl overflow-hidden" src={photo5} alt="Slide 5" />
+          <div className="h-[100px] w-[100px] flex items-center relative">
+            <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo5} alt="Slide 5" />
           </div>
-          <div className="h-[200px] w-[200px] flex items-center relative">
-            <img className="h-full w-full object-center object-cover border rounded-xl overflow-hidden" src={photo6} alt="Slide 6" />
+          <div className="h-[100px] w-[100px] flex items-center relative">
+            <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo6} alt="Slide 6" />
           </div>
-          <div className="h-[200px] w-[200px] flex items-center relative">
-            <img className="h-full w-full object-center object-cover border rounded-xl overflow-hidden" src={photo7} alt="Slide 7" />
+          <div className="h-[100px] w-[100px] flex items-center relative">
+            <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo7} alt="Slide 7" />
           </div>
-          <div className="h-[200px] w-[200px] flex items-center relative">
-            <img className="h-full w-full object-center object-cover border rounded-xl overflow-hidden" src={photo8} alt="Slide 8" />
+          <div className="h-[100px] w-[100px] flex items-center relative">
+            <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo8} alt="Slide 8" />
           </div>
-          <div className="h-[200px] w-[200px] flex items-center relative">
-            <img className="h-full w-full object-center object-cover border rounded-xl overflow-hidden" src={photo9} alt="Slide 9" />
+          <div className="h-[100px] w-[100px] flex items-center relative">
+            <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo9} alt="Slide 9" />
           </div>
         </div>
       </div>
