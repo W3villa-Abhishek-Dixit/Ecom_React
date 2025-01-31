@@ -11,7 +11,7 @@ import { FaCcDiscover } from "react-icons/fa6";
 const Copyright = () => {
   return (
     <div className="w-screen bg-slate-600">
-        <div className="w-full max-w-[1600px] mx-auto flex justify-between  h-[40px]   ">
+        <div className=" text-[13px] px-[5px]  sm:text-[18px] w-full max-w-[1600px] mx-auto flex justify-between  h-[40px] px-auto  ">
 
           <div className="text-gray-200 flex items-center">Copyright<FaRegCopyright />2014,Your Stor,All Rights Reserved</div>
           <div className="flex justify-center items-center text-gray-200 gap-[10px]">

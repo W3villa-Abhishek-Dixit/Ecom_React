@@ -66,14 +66,14 @@ const Blog = () => {
             <li className="bg-blue-400 h-[35px] w-[150px] flex justify-center items-center text-white mr-[10px]">
               LATEST POSTS
             </li>
-            <li className="">MOST READ</li>
+            <li className=" flex w-[120px] items-center">MOST READ</li>
           </ol>
         </div>
 
         <div className="w-full mt-[15px] max-w-[1600px]  ">
           <Slider {...settings} className="slider-container  ">
             {/* Slide 1 */}
-            <div className="h-[425px] max-w-[96%] flex flex-col items-center relative hover:border-1 border-slate-500 mx-2 bg-white shadow-md rounded-lg">
+            <div className="h-[425px] max-w-[96%] flex flex-col items-center relative hover:border-1 border-slate-500 mx-2 bg-white shadow-md rounded-lg pb-8">
               <img
                 className="h-[50%] w-full object-cover rounded-t-lg"
                 src={img1}
@@ -95,18 +95,18 @@ const Blog = () => {
                 <div className="text-lg font-semibold">
                   Journal Blog is here
                 </div>
-                <p className="text-center text-sm mt-2 text-gray-600">
+                <p className="text-center text-sm mt-2 text-gray-600 text-[12px] lg:text-[16px] ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nesciunt laudantium reprehenderit corporis dolorem sint
                   nostrum consequatur.
                 </p>
               </div>
-              <div className="flex justify-center items-center gap-[5px] text-gray-600">Read More <FaArrowRight /></div>
+              <div className="flex justify-center items-center gap-[5px] text-gray-600 text-[12px] lg:text-[16px] ">Read More <FaArrowRight /></div>
                 
             </div>
 
             {/* Repeat other slides */}
-            <div className="h-[425px] max-w-[96%] flex flex-col items-center relative hover:border-1 border-slate-500 mx-2 bg-white shadow-md rounded-lg">
+            <div className="h-[425px] max-w-[96%] flex flex-col items-center relative hover:border-1 border-slate-500 mx-2 bg-white shadow-md rounded-lg pb-8">
               <img
                 className="h-[50%] w-full object-cover rounded-t-lg"
                 src={img2}
@@ -128,18 +128,18 @@ const Blog = () => {
                 <div className="text-lg font-semibold">
                   Best Leather Bags
                 </div>
-                <p className="text-center text-sm mt-2 text-gray-600">
+                <p className="text-center text-sm mt-2 text-gray-600 text-[12px] lg:text-[16px] ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nesciunt laudantium reprehenderit corporis dolorem sint
                   nostrum consequatur.
                 </p>
               </div>
 
-              <div className="flex justify-center items-center gap-[5px] text-gray-600">Read More <FaArrowRight /></div>
+              <div className="flex justify-center items-center gap-[5px] text-gray-600 text-[12px] lg:text-[16px] ">Read More <FaArrowRight /></div>
             </div>
 
             {/* Add other slides */}
-            <div className="h-[425px] max-w-[96%] flex flex-col items-center relative hover:border-1 border-slate-500  mx-2 bg-white shadow-md rounded-lg">
+            <div className="h-[425px] max-w-[96%] flex flex-col items-center relative hover:border-1 border-slate-500  mx-2 bg-white shadow-md rounded-lg pb-8">
               <img
                 className="h-[50%] w-full object-cover rounded-t-lg"
                 src={img3}
@@ -161,18 +161,18 @@ const Blog = () => {
                 <div className="text-lg font-semibold">
                   Perfect Blogs for You
                 </div>
-                <p className="text-center text-sm mt-2 text-gray-600">
+                <p className="text-center text-sm mt-2 text-gray-600 text-[12px] lg:text-[16px] ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nesciunt laudantium reprehenderit corporis dolorem sint
                   nostrum consequatur.
                 </p>
               </div>
 
-              <div className="flex justify-center items-center gap-[5px] text-gray-600">Read More <FaArrowRight /></div>
+              <div className="flex justify-center items-center gap-[5px] text-gray-600 text-[12px] lg:text-[16px] ">Read More <FaArrowRight /></div>
             </div>
 
             {/* Add another slide */}
-            <div className="h-[425px] max-w-[96%] flex flex-col items-center relative hover:border-1 border-slate-500 mx-2 bg-white shadow-md rounded-lg">
+            <div className="h-[425px] max-w-[96%] flex flex-col items-center relative hover:border-1 border-slate-500 mx-2 bg-white shadow-md rounded-lg pb-8">
               <img
                 className="h-[50%] w-full object-cover rounded-t-lg"
                 src={img4}
@@ -194,7 +194,7 @@ const Blog = () => {
                 <div className="text-lg font-semibold">
                   Best Blog Designs
                 </div>
-                <p className="text-center text-sm mt-2 text-gray-600">
+                <p className="text-center text-sm mt-2 text-gray-600 text-[12px] lg:text-[16px]  ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nesciunt laudantium reprehenderit corporis dolorem sint
                   nostrum consequatur.
@@ -202,11 +202,11 @@ const Blog = () => {
               </div>
 
 
-              <div className="flex justify-center items-center gap-[5px] text-gray-600">Read More <FaArrowRight /></div>
+              <div className="flex justify-center items-center gap-[5px] text-gray-600 text-[12px] lg:text-[16px] ">Read More <FaArrowRight /></div>
             </div>
 
 
-            <div className="h-[425px] max-w-[96%] flex flex-col items-center relative hover:border-1 border-slate-500 mx-2 bg-white shadow-md rounded-lg">
+            <div className="h-[425px] max-w-[96%] flex flex-col items-center relative hover:border-1 border-slate-500 mx-2 bg-white shadow-md rounded-lg pb-12">
               <img
                 className="h-[50%] w-full object-cover rounded-t-lg"
                 src={img3}
@@ -224,18 +224,18 @@ const Blog = () => {
                 </div>
               </div>
 
-              <div className="h-auto w-full ml-[10px] flex flex-col items-center justify-center p-4">
+              <div className="h-auto w-full ml-[10px] flex flex-col items-center justify-center p-4 pb-8">
                 <div className="text-lg font-semibold">
                   Perfect Blogs for You
                 </div>
-                <p className="text-center text-sm mt-2 text-gray-600">
+                <p className="text-center text-sm mt-2 text-gray-600 text-[12px] lg:text-[16px] ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nesciunt laudantium reprehenderit corporis dolorem sint
                   nostrum consequatur.
                 </p>
               </div>
 
-              <div className="flex justify-center items-center gap-[5px] text-gray-600">Read More <FaArrowRight /></div>
+              <div className="flex justify-center items-center gap-[5px] text-gray-600 text-[12px] lg:text-[16px] ">Read More <FaArrowRight /></div>
             </div>
           </Slider>
         </div>

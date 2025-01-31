@@ -10,12 +10,12 @@ const Category_sec = () => {
           Why buy from us?
         </div>
         <div className="h-[2px] w-[60px] md:w-[120px] bg-orange-600 my-2"></div>
-        <p>Journal has been the best-selling and most loved Opencart theme since launch in 2013. Tried and tested by over 20k people, Journal</p>
-        <div>is the best Opencart theme framework on market</div>
+        <p className='text-center sm:text-sm md:text-l lg:text-xl'>Journal has been the best-selling and most loved Opencart theme since launch in 2013. Tried and tested by over 20k people.</p>
+        <div className=' hidden sm:block text-sm md:text-l lg:text-xl'> JOurnal is the best Opencart theme framework on market</div>
 
         <ol className='flex flex-wrap justify-between items-center gap-[25px] h-[30px] w-full max-w-[480px] bg-gray-400 mt-[10px]'>
           <li className='bg-blue-500 text-white w-[150px] h-[30px] flex justify-center items-center'>TOP CATEGORIES</li>
-          <li>ELECTRONICS</li>
+          <li className='pr-[10px] '>ELECTRONICS</li>
           <li className='hidden sm:block'>BEAUTY</li>
           <li className='mr-1.5 hidden sm:block'>FASHION</li>
         </ol>

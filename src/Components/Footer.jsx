@@ -41,13 +41,13 @@ const Footer = () => {
             <h3 className="text-lg font-semibold">Newsletter</h3>
             <div className="w-16 h-0.5 bg-red-600 my-2"></div>
             <p className="mt-4">Stay up to date with news and promotions by signing up for our newsletters.</p>
-            <div className="flex items-center mt-4 border border-gray-400 p-2 rounded-md h-[35px] overflow-hidden">
+            <div className="flex items-center mt-4 border border-gray-400 p-2 rounded-md h-[35px] overflow-hidden relative">
               <input type="email" placeholder="Your email" className="flex-1 p-2 outline-none" />
-              <button className="bg-blue-600 text-white px-4 ml-[30px]  h-[35px]">Send</button>
+              <button className="bg-blue-600 text-white px-4   sm:ml-[58px]  h-[35px] absolute right-0">Send</button>
             </div>
             <div className="flex items-center mt-4 space-x-2">
               <input type="checkbox" className="w-4 h-4" />
-              <p className="text-sm">I have read and agree to the <a href="#" className="text-blue-600">Privacy Policy</a></p>
+              <p className="text-sm ">I have read and agree to the <a href="#" className="text-blue-600">Privacy Policy</a></p>
             </div>
           </div>
         </div>

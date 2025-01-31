@@ -13,7 +13,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 const Navbar = () => {
   return (
     <div className='w-screen   '>
-         <div className=' sm:bg-slate-50 bg-blue-700 text-white sm:text-gray-600 h-[35px] flex justify-between items-center py-6 sm:py-auto sm:my-2 mx-auto max-w-[1600px]'>
+         <div className=' sm:bg-slate-50 bg-blue-700 text-white text-[14px] sm:text-[15px] sm:text-gray-600 h-[35px] flex justify-between px-2 lg:px-auto items-center py-6 sm:py-auto sm:my-2 mx-auto max-w-[1600px]'>
             < div className='flex '>
                  <ol className='flex  justify-center sm:gap-2.5 items-center'> 
                     <li className='hidden sm:flex gap-1 items-center'> <CiHome />Home</li>

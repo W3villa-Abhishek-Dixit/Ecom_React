@@ -13,7 +13,7 @@ import fp2 from "../assets/images/fp-2.jpeg";
 import fp3 from "../assets/images/fp-3.jpeg";
 import fp4 from "../assets/images/fp-4.jpg";
 import fp5 from "../assets/images/fp-5.jpg";
-
+import headphn from "../assets/images/headphn.jpg";
 
 function FeaturedProduct_sec() {
 
@@ -59,7 +59,7 @@ function FeaturedProduct_sec() {
 
   return (
     <div className="w-full bg-slate-100 pt-[10px] sm:pt-0">
-      <div className="flex flex-col md:items-center max-w-[1600px] mx-auto my-10 px-3 md:px-5 lg:px-7 2xl:px-10">
+      <div className="flex flex-col md:items-center max-w-[1600px] mx-auto mt-10 px-3 md:px-5 lg:px-7 2xl:px-10">
         <div className="text-[21px] sm:text-[37px] xl:text-[43px] font-semibold">
           Featured Products
         </div>
@@ -131,7 +131,11 @@ function FeaturedProduct_sec() {
                   </div>
                 </div>
               </div>
-              <div  className="bg-cover bg-center w-[100%] sm:max-w-[90%] min-w-[250px] sm:min-w-[48%] flex items-center rounded-xl overflow-hidden justify-center text-black text-xl font-bold relative my-6 border-[1px] border-slate-300 shadow-[0px_0px_0px_0px_grey]">
+             
+             
+             
+             
+              {/* <div  className="bg-cover bg-center w-[100%] sm:max-w-[90%] min-w-[250px] sm:min-w-[48%] flex items-center rounded-xl overflow-hidden justify-center text-black text-xl font-bold relative my-6 border-[1px] border-slate-300 shadow-[0px_0px_0px_0px_grey]">
            
                 <div className="overflow-hidden h-[100%] sm:h-[250px]">
                   <img src={fp2} alt="" className="overflow-hidden h-[100%] w-[100%] h-full object-cover" />
@@ -188,11 +192,20 @@ function FeaturedProduct_sec() {
                     Question
                   </div>
                 </div>
-              </div>
+              </div> */}
+              
+              
+              
+              
+              
+              
+              
+              
+              
               <div  className="bg-cover bg-center w-[100%] sm:max-w-[90%] min-w-[250px] sm:min-w-[48%] flex items-center rounded-xl overflow-hidden justify-center text-black text-xl font-bold relative my-6 border-[1px] border-slate-300 shadow-[0px_0px_0px_0px_grey]">
            
                 <div className="overflow-hidden h-[100%] sm:h-[250px]">
-                  <img src={fp3} alt="" className="overflow-hidden h-[100%] w-[100%] h-full object-cover" />
+                  <img src={fp1} alt="" className="overflow-hidden h-[100%] w-[100%] h-full object-cover" />
                 </div>
                 <div className="flex justify-between bg-slate-200 text-slate-500 py-2 font-light text-[15px] px-1">
                   <div>Erickson</div>
@@ -247,10 +260,18 @@ function FeaturedProduct_sec() {
                   </div>
                 </div>
               </div>
+              
+              
+              
+              
+              
+              
+              
+              
               <div  className="bg-cover bg-center w-[100%] sm:max-w-[90%] min-w-[250px] sm:min-w-[48%] flex items-center rounded-xl overflow-hidden justify-center text-black text-xl font-bold relative my-6 border-[1px] border-slate-300 shadow-[0px_0px_0px_0px_grey]">
            
                 <div className="overflow-hidden h-[100%] sm:h-[250px]">
-                  <img src={fp4} alt="" className="overflow-hidden h-[100%] w-[100%] h-full object-cover" />
+                  <img src={fp1} alt="" className="overflow-hidden h-[100%] w-[100%] h-full object-cover" />
                 </div>
                 <div className="flex justify-between bg-slate-200 text-slate-500 py-2 font-light text-[15px] px-1">
                   <div>Erickson</div>

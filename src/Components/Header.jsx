@@ -11,7 +11,7 @@ import { FaCartShopping } from "react-icons/fa6";
 const Header = () => {
   return (
     <div className='w-screen bg-slate-300 '>
-    <div className='  sm: bg-slate-300 min-h-[100px]  flex justify-between items-center  max-w-[1600px] mx-auto'>
+    <div className='  sm: bg-slate-300 min-h-[100px]  flex justify-between items-center px-2 lg:px-auto max-w-[1600px] mx-auto'>
           <div><h1 className='text-5xl'>JOURNAL</h1></div>
           <div className=' hidden lg:flex justify-between w-[340px] '>
                 <div className='w-[13%] flex justify-center items-center bg-blue-500 text-white'>All<MdArrowDropDown />

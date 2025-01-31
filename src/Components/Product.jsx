@@ -56,7 +56,8 @@ function Product() {
               src={img1}
               alt="Slide 1"
             />
-            <div className="flex justify-center items-center text-sm font-medium  h-[30px] w-[80px] border absolute bottom-[20px] left-[130px] bg-white">Fashion</div>
+            <div className="absolute bottom-2 flex justify-center w-full">            <div className="flex justify-center items-center text-sm font-medium  rounded-md   h-[30px] w-[80px]   bg-white">Fashion</div>
+            </div>
           </div>
 
           {/* Slide 2 */}
@@ -67,7 +68,8 @@ function Product() {
               alt="Slide 2"
             />
 
-         <div className="flex justify-center items-center text-sm font-medium  h-[30px] w-[80px] border absolute bottom-[20px] left-[130px] bg-white">Fashion</div>
+<div className="absolute bottom-2 flex justify-center w-full">            <div className="flex justify-center items-center text-sm font-medium  rounded-md   h-[30px] w-[80px]   bg-white">Fashion</div>
+</div>
           </div>
 
           {/* Slide 3 */}
@@ -78,7 +80,8 @@ function Product() {
               alt="Slide 3"
             />
 
-<div className="flex justify-center items-center text-sm font-medium mb-[10px] h-[30px] w-[120px] border absolute bottom-[15px] left-[130px] bg-white ">Health & Beauty </div>
+<div className="absolute bottom-2 flex justify-center w-full">            <div className="flex justify-center items-center text-sm font-medium  rounded-md   h-[30px] w-[80px]   bg-white">Fashion</div>
+            </div>
           </div>
           
 
@@ -90,7 +93,8 @@ function Product() {
               alt="Slide 4"
             />
 
-<div className="flex justify-center items-center text-sm font-medium  h-[30px] w-[80px] border absolute bottom-[20px] left-[130px] bg-white">Furniture</div>
+<div className="absolute bottom-2 flex justify-center w-full">            <div className="flex justify-center items-center text-sm font-medium  rounded-md   h-[30px] w-[80px]   bg-white">Fashion</div>
+            </div>
           </div>
 
           {/* Slide 5 */}
@@ -101,7 +105,8 @@ function Product() {
               alt="Slide 5"
             />
 
-<div className="flex justify-center items-center text-sm font-medium  h-[30px] w-[80px] border absolute bottom-[20px] left-[130px] bg-white">Fashion</div>
+<div className="absolute bottom-2 flex justify-center w-full">            <div className="flex justify-center items-center text-sm font-medium  rounded-md   h-[30px] w-[80px]   bg-white">Fashion</div>
+            </div>
           </div>
 
           {/* Slide 6 */}
@@ -112,7 +117,8 @@ function Product() {
               alt="Slide 6"
             />
 
-<div className="flex justify-center items-center text-sm font-medium  h-[30px] w-[80px] border absolute bottom-[20px] left-[130px] bg-white">Fashion</div>
+<div className="absolute bottom-2 flex justify-center w-full">            <div className="flex justify-center items-center text-sm font-medium  rounded-md   h-[30px] w-[80px]   bg-white">Fashion</div>
+            </div>
           </div>
         </Slider>
       </div>

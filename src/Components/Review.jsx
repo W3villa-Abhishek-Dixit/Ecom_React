@@ -42,7 +42,7 @@ const Review = () => {
     };
 
     return (
-        <div className="w-screen h-auto py-10">
+        <div className="w-screen h-auto py-10 mb-[70px]">
             <div className=" h-[300px] w-[80vw] mx-auto">
                 <div className="flex flex-col justify-center items-center">
                 {/* <h1 className="text-[21px] font-semibold mt-[15px]">What are people saying about us</h1>
@@ -54,9 +54,9 @@ const Review = () => {
 
                 </div>
             
-                <Slider {...settings}  className="slider-container mt-[10px] max-w-[1600px] mx-auto">
+                <Slider {...settings}  className="slider-container mt-[10px] max-w-[1600px] mx-auto ">
                     {/* Slide 1 */}
-                    <div className=" h-[270px] max-w-[96%] flex items-center justify-center hover:border-1 border-slate-500">
+                    <div className=" h-[270px] max-w-[96%] flex items-center justify-center hover:border-1 border-slate-500 text-[12px] lg:text-[16px] ">
                         <div className="text-[50px] flex justify-center items-center mt-[25px] text-amber-800"><FaQuoteLeft /></div>
                         <div className="text-center  mt-[20px] text-gray-600">company thrives on innovation, collaboration, and dedication. 
                     We believe in empowering our team to create impactful solutions that drive success and foster growth. 
@@ -64,7 +64,7 @@ const Review = () => {
                     <div className='font-semibold text-center mt-[5px] text-gray-700'>- charlibaltimore</div>
                     </div>
                     {/* Slide 2 */}
-                    <div className=" h-[270px]  max-w-[96%] flex items-center justify-center hover:border-1 border-slate-500">
+                    <div className=" h-[270px]  max-w-[96%] flex items-center justify-center hover:border-1 border-slate-500 text-[12px] lg:text-[16px] ">
                         <div className="text-[50px] flex justify-center items-center mt-[25px] text-amber-800"><FaQuoteLeft /></div>
                         <div className="text-center  mt-[20px] text-gray-600">company thrives on innovation, collaboration, and dedication. 
                     We believe in empowering our team to create impactful solutions that drive success and foster growth. 
@@ -73,7 +73,7 @@ const Review = () => {
                     </div>
                     
                     {/* Slide 3 */}
-                    <div className=" h-[270px] max-w-[96%] flex items-center justify-center hover:border-1 border-slate-500">
+                    <div className=" h-[270px] max-w-[96%] flex items-center justify-center hover:border-1 border-slate-500 text-[12px] lg:text-[16px] ">
                         <div className="text-[50px] flex justify-center items-center mt-[25px] text-amber-800"><FaQuoteLeft /></div>
                         <div className="text-center  mt-[20px] text-gray-600">company thrives on innovation, collaboration, and dedication. 
                     We believe in empowering our team to create impactful solutions that drive success and foster growth. 
@@ -81,7 +81,7 @@ const Review = () => {
                     <div className='font-semibold text-center mt-[5px]text-gray-700'>- charlibaltimore</div>
                     </div>
                     {/* Slide 4 */}
-                    <div className=" h-[270px] max-w-[96%]  flex items-center justify-center hover:border-1 border-slate-500">
+                    <div className=" h-[270px] max-w-[96%]  flex items-center justify-center hover:border-1 border-slate-500 text-[12px] lg:text-[16px] ">
                         <div className="text-[50px] flex justify-center items-center mt-[25px] text-amber-800"><FaQuoteLeft /></div>
                         <div className="text-center  mt-[20px] text-gray-600">company thrives on innovation, collaboration, and dedication. 
                     We believe in empowering our team to create impactful solutions that drive success and foster growth. 

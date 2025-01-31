@@ -15,13 +15,13 @@ const Social = () => {
   return (
 <div className="w-screen bg-slate-300">
 
-      <div className="w-full   h-[70px] gap-[15px]  flex justify-center items-center  max-w-[1600px] mx-auto">
-             <div className="rounded-4xl h-[50px] w-[50px] flex justify-center items-center text-[30px] bg-blue-500 text-white">
+      <div className="w-full  h-[50px] sm:h-[70px] gap-[15px]  flex justify-center items-center  max-w-[1600px] mx-auto ">
+             <div className="h-[35px] w-[35px] text-[20px] rounded-4xl sm:h-[50px] sm:w-[50px] flex justify-center items-center  sm:text-[30px] bg-blue-500 text-white">
              <FaFacebookF />
              </div>
              
                      
-             <div className="rounded-4xl h-[50px] w-[50px] flex justify-center items-center text-[30px] bg-blue-500 text-white">
+             <div className="rounded-4xl h-[35px] w-[35px] text-[20px] sm:h-[50px] sm:w-[50px] flex justify-center items-center sm:text-[30px] bg-blue-500 text-white">
              <FaTwitter />
              </div>
 
@@ -29,31 +29,31 @@ const Social = () => {
 
              
             
-             <div className="rounded-4xl h-[50px] w-[50px] flex justify-center items-center text-[30px] bg-blue-500 text-white">
+             <div className="rounded-4xl text-[20px] h-[35px] w-[35px] sm:h-[50px] sm:w-[50px] flex justify-center items-center sm:text-[30px] bg-blue-500 text-white">
              <FaInstagram />
              </div>
 
            
             
-             <div className="rounded-4xl h-[50px] w-[50px] flex justify-center items-center text-[30px] bg-blue-500 text-white">
+             <div className="rounded-4xl  h-[35px] w-[35px] text-[20px]  sm:h-[50px] sm:w-[50px] flex justify-center items-center sm:text-[30px] bg-blue-500 text-white">
              <FaLinkedin />
              </div>
 
              
              
-             <div className="rounded-4xl h-[50px] w-[50px] flex justify-center items-center text-[30px] bg-blue-500 text-white">
+             <div className="rounded-4xl   text-[20px] h-[35px] w-[35px] sm:h-[50px] sm:w-[50px] flex justify-center items-center sm:text-[30px] bg-blue-500 text-white">
              <FaYoutube />
              </div>
 
             
              
-             <div className="rounded-4xl h-[50px] w-[50px] flex justify-center items-center text-[30px] bg-blue-500 text-white">
+             <div className="rounded-4xl h-[35px] w-[35px] text-[20px] sm:h-[50px] sm:w-[50px] flex justify-center items-center sm:text-[30px] bg-blue-500 text-white">
              <GrSkype />
 
              </div>
              
             
-             <div className="rounded-4xl h-[50px] w-[50px] flex justify-center items-center text-[30px] bg-blue-500 text-white">
+             <div className="rounded-4xl  h-[35px] w-[35px] text-[20px] sm:h-[50px] sm:w-[50px] flex justify-center items-center sm:text-[30px] bg-blue-500 text-white">
              <FaGolang />
 
              </div>
