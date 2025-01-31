@@ -64,7 +64,7 @@ function FeaturedProduct_sec() {
           Featured Products
         </div>
         <div className="h-[2px] w-[60px] md:w-[120px] bg-orange-600 my-2"></div>
-        <div className="w-[90%] sm:w-[74%] text-start text-[14px] sm:text-normal sm:text-center text-slate-500 mb-6">
+        <div className="w-[90%] sm:w-[74%] text-start text-[14px] text-normal sm:text-[16px] sm:text-center text-slate-500 mb-6">
           Display any products as tabs or accordions with optional grid or carousal mode. Custom products per row per modules and per breakpoint.
           <span className="text-blue-800 underline">Learn more</span>
         </div>

@@ -43,7 +43,7 @@ const Herosec = () => {
             <div className="rounded-xl w-[50%] lg:w-full lg:h-[50%] flex bg-slate-300">
                 <div className="w-[50%] flex flex-col mt-[20px] items-center">
                     <h1 className='text-blue-400'>WEARABLE</h1>
-                    <h1 className='text-lg md:text-xl lg:text-2xl xl:text-3xl ml-2'>Intelligent <br></br>& Durable <br></br>Design</h1>
+                    <h1 className='text-lg md:text-xl lg:text-2xl ml-2'>Intelligent <br></br>& Durable <br></br>Design</h1>
                  </div>
 
                 <div className="w-[50%] ">
@@ -61,7 +61,7 @@ const Herosec = () => {
 
             <div className="w-[50%] flex flex-col mt-[20px] items-center ">
                     <h1 className='text-blue-400 ml-[7px] sm:ml-0'>COMPUTERS</h1>
-                    <h1 className='text-lg md:text-xl lg:text-2xl xl:text-3xl  ml-2'>Build your <br></br>& Durable <br></br>Design</h1>
+                    <h1 className='text-lg md:text-xl lg:text-2xl   ml-2'>Build your <br></br>& Durable <br></br>Design</h1>
                 
                  </div>
                  <div className="w-[50%] ">
