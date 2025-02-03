@@ -26,7 +26,7 @@ const Gallery = () => {
           </p>
         </div>
 
-        <div className='flex flex-wrap justify-center gap-5 mt-[10px]'>
+        <div className='flex flex-wrap justify-center gap-3 mt-[10px]'>
           <div className="h-[100px] w-[100px] flex items-center relative">
             <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo1} alt="Slide 1" />
           </div>
@@ -54,6 +54,13 @@ const Gallery = () => {
           <div className="h-[100px] w-[100px] flex items-center relative">
             <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo9} alt="Slide 9" />
           </div>
+          <div className="h-[100px] w-[100px] flex items-center relative">
+            <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo4} alt="Slide 4" />
+          </div>
+          <div className="h-[100px] w-[100px] flex items-center relative">
+            <img className="h-full w-full object-center object-cover border-white border-1 rounded-xl overflow-hidden" src={photo5} alt="Slide 5" />
+          </div>   
+
         </div>
       </div>
     </div>

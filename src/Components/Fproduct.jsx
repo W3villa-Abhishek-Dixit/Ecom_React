@@ -70,7 +70,7 @@ function Fproduct() {
                 <img
                   src={image1}
                   alt=""
-                  className="w-[95%] mx-auto object-cover h-full object-center"
+                  className=" w-[95%] mx-auto object-cover h-full object-center"
                 />
               </div>
               <div className="flex flex-col justify-between md:bg-slate-400 py-2 font-light text-[18px] sm:text-[16px] sm:px-5 w-full mb-6 md:mb-7">

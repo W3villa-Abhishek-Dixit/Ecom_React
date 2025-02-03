@@ -13,7 +13,7 @@ const products = [
   { id: 2, name: "Headphone", price: 397.00, image: headphn },
   { id: 3, name: "Womens Sandals", price: 397.00, image: san },
   { id: 4, name: "Sports Watch", price: 397.00, image: swatch },
-  // { id: 5, name: "Oversized Sunglasses", price: 397.00, image: goggles }
+   { id: 5, name: "Oversized Sunglasses", price: 397.00, image: goggles }
 ];
 
 const Viewed = () => {
@@ -22,12 +22,13 @@ const Viewed = () => {
       <div className="px-5 max-w-[1600px] mx-auto">
         {/* Title Section */}
         <div className="mb-6">
-          <h1 className="text-[21px] font-semibold text-white">Most Viewed</h1>
-          <div className="h-0.5 w-[50px] mt-2 bg-orange-600"></div>
+          <h1 className="text-[21px] font-semibold text-white ">Most Viewed</h1>
+          <div className="h-0.5 w-[50px] mt-2 bg-orange-600 "></div>
         </div>
+        
 
         {/* Product List */}
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className=" flex justify-center md:flex flex-wrap gap-3">
           {products.map((product) => (
             <div key={product.id} className="h-[100px] w-full sm:w-[280px] md:w-[300px] rounded-xl flex bg-white overflow-hidden shadow-md">
               <div className="w-[30%] overflow-hidden">

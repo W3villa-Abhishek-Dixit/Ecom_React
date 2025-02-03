@@ -1,1 +1,6 @@
 @import "tailwindcss";
+/* Tailwind CSS Fix for Global Overflow */ 
+ /* html, body {
+    @apply w-full overflow-x-hidden;
+  } 
+   */
